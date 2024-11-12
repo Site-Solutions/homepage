@@ -42,6 +42,9 @@ Absolutely! BuildSimpli is available on both iOS and (soon) Android, allowing yo
 ### Is my data secure with BuildSimpli?
 Yes, we take security very seriously. All data is securely stored in the cloud, and only authorized team members can access project information.
 
+### Terms of Service
+To view our terms of service visit [Terms of Service](https://buildsimpli.com/tos)
+
 ## Support and Contact
 
 Need help? Contact our support team at [support@buildsimpli.com](mailto:support@buildsimpli.com) or visit our [website](https://buildsimpli.com) for more information.
