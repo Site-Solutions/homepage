@@ -1,53 +1,36 @@
-# ![BuildSimpli](./logofull.png) BuildSimpli
-
-Welcome to **BuildSimpli** – the ultimate tool for simplifying construction project management. Designed specifically for construction teams, BuildSimpli streamlines communication, documentation, and task tracking, helping you keep projects on time and on budget.
-
-## Why Choose BuildSimpli?
-
-**BuildSimpli** is crafted for construction managers, site supervisors, and field workers who need a reliable, easy-to-use tool to handle day-to-day operations. It’s perfect for small to medium-sized construction companies looking to improve workflow efficiency without the complexity of traditional project management software.
-
-## Key Features
-
-### 📋 Project Management
-- **Create Projects:** Easily create and organize your construction projects in one place.
-- **Task Assignment:** Assign tasks to team members, ensuring everyone knows their responsibilities.
-
-### 📝 Daily Reporting
-- **Daily Logs:** Keep track of daily activities, work orders, and any updates directly from the field.
-- **Progress Tracking:** Record project completion status to stay on top of deadlines.
-
-### 📁 Document and File Storage
-- **Centralized Storage:** Store project documents, blueprints, and photos securely within the app.
-- **Quick Access:** Access necessary files anytime, from anywhere.
-
-### 🤝 Real-Time Collaboration
-- **Stay Connected:** Real-time updates and notifications keep your team informed on project changes.
-- **Team Communication:** Keep everyone in sync with dedicated communication tools designed for construction.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-1. **Download BuildSimpli:** Available on [Apple App Store](#) and [Google Play Store](#).
-2. **Sign Up & Set Up Your Organization:** Create an account and set up your company profile.
-3. **Invite Your Team:** Add supervisors, field workers, and anyone involved in the project.
-4. **Start Managing Projects:** Create your first project, assign tasks, and upload documents.
+First, run the development server:
 
-## Frequently Asked Questions
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-### Is BuildSimpli suitable for my company?
-BuildSimpli is ideal for small to medium-sized construction companies. If you need a simple, powerful way to manage daily tasks, keep documentation organized, and communicate with your team, BuildSimpli is designed for you.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Can I use BuildSimpli on my mobile device?
-Absolutely! BuildSimpli is available on both iOS and (soon) Android, allowing you to manage projects from anywhere, whether in the office or at the construction site.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### Is my data secure with BuildSimpli?
-Yes, we take security very seriously. All data is securely stored in the cloud, and only authorized team members can access project information.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Support and Contact
+## Learn More
 
-Need help? Contact our support team at [support@buildsimpli.com](mailto:support@buildsimpli.com) or visit our [website](https://buildsimpli.com) for more information.
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**Start your journey towards a more efficient construction workflow with BuildSimpli today!**
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-![App Store Badge](#)
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
