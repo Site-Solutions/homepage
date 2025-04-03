@@ -5,30 +5,25 @@ import { ThemeProvider } from "@/components/theme-provider"
 export const metadata = {
   title: "BuildSimpli - Construction Project Management Made Simple",
   description:
-    "The ultimate tool for simplifying construction project management. Designed specifically for construction teams, BuildSimpli streamlines communication, documentation, and task tracking.",
+      "The ultimate tool for simplifying construction project management. Designed specifically for construction teams, BuildSimpli streamlines communication, documentation, and task tracking.",
   icons: {
     icon: "/favicon.ico",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
-  children,
-}: {
+                                     children,
+                                   }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+      <html lang="en" suppressHydrationWarning>
       <head />
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
-        </ThemeProvider>
+      <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+        {children}
+      </ThemeProvider>
       </body>
-    </html>
+      </html>
   )
 }
-
-
-
-import './globals.css'
